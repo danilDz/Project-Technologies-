@@ -1,0 +1,175 @@
+@import url(reset.css);
+@import url(fonts.css);
+
+.header{
+    height: 120px;
+    width: 100%;
+    background-color: #470048;
+    z-index: 999;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 20px 10px black;
+    position: fixed;
+}
+
+.logo{
+    width: 90px;
+    height: 90px;  
+    margin-right: 20px; 
+}
+
+.headerP{
+    font-size: 40px;
+    font-family: 'Oswald';
+    font-weight: 700;
+    color: #ffffff;
+    text-shadow: black 0px 0px 20px;
+}
+
+.headerDiv{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.navA{
+    font-family: 'Oswald';
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 30px;
+    margin: 0px 40px;
+    text-decoration: none;
+    text-shadow: black 0px 0px 20px;
+}
+
+.regmargin{
+    margin: 0px 20px;
+}
+
+.headerDiv2{
+    margin-right: 50px;
+}
+
+.section1{
+    background-image: url(../images/main_1.png);
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section2{
+    background-color:white;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 0px 10px 10px black;
+    z-index: 999;
+
+}
+
+.section1P{
+    font-size: 100px;
+    color: white;
+    text-shadow: black 0px 0px 15px;
+    font-family: 'Oswald';
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.section2Div{
+    width: 80%;
+    height: 100%;
+    margin: 0px auto;
+}
+
+.section2Flex{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 100%;
+    height: 40%;
+    margin: 0px 0px 0px 0px;
+}
+
+.section2Div1{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.section2Div2{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section2Div3{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.section2P{
+    font-size: 35px;
+    height: 100%;
+    color: white;
+    text-shadow: black 0px 0px 20px;
+    -webkit-text-stroke: 0.5px black;
+    padding-top: 65px;
+    padding-bottom: 75px;
+    padding-right: 95px;
+    padding-left: 45px;
+    font-family: 'SansitaSwashed';
+    font-weight: 900;
+    margin:20px;
+    text-align: justify;
+    background-image: url(../images/pict1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 131%;
+}
+
+.section2PPadding{
+    padding-top: 60px;
+}
+
+.section2IMG{
+    height: 400px;
+    margin: 40px 0px 40px 40px;
+    box-shadow: 0px 0px 15px 5px #470048;
+    border-radius: 20px;
+}
+
+.section2IMGLEFT{
+    height: 400px;
+    margin: 40px 40px 40px 0px;
+    box-shadow: 0px 0px 15px 5px #470048;
+    border-radius: 20px;
+}
+
+footer{
+    height: 60px;
+    width: 100%;
+    background-color: #470048;
+    padding-top: 20px;
+    z-index: 1;
+}
+
+.footer{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Oswald';
+    font-weight: 100;
+    opacity: 0.7;
+}
